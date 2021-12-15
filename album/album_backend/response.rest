@@ -1,0 +1,11 @@
+GET http://localhost:4000/images
+
+###
+
+POST http://localhost:4000/upload
+Content-Type: application/json
+
+{
+    "type": "robak",
+    "imgcode": "robakowski"
+}
